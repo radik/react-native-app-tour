@@ -8,18 +8,11 @@
   },
   "main": "RNAppTour.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node ../pod-installer/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react-native"
   ],
   "author": "Pranav Raj Singh Chauhan",
-  "license": "Apache License",
-  "dependencies": {
-    "pod-installer": "0.0.0"
-  },
-  "devDependencies": {
-    "prettier-pack": "0.0.8"
-  }
+  "license": "Apache License"
 }
