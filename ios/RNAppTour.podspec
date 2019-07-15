@@ -1,15 +1,13 @@
 require 'json'
 
-package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
-
 Pod::Spec.new do |s|
   s.name         = "RNAppTour"
-  s.version      = package['version']
-  s.summary      = package['description']
-  s.description  = package["description"]
+  s.version      = "0.0.18"
+  s.summary      = "React Native: Native App Tour Library"
+  s.description  = "React Native: Native App Tour Library"
   s.homepage     = "n/a"
-  s.license      = package['license']
-  s.author       = package['author']
+  s.license      = "Apache License"
+  s.author       = "Pranav Raj Singh Chauhan"
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = '9.0'
   s.library        = 'z'
