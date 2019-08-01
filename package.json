@@ -1,14 +1,13 @@
 {
   "name": "react-native-app-tour",
-  "version": "0.0.18",
+  "version": "0.1.0",
   "description": "React Native: Native App Tour Library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prscX/react-native-app-tour.git"
+    "url": "https://github.com/radik/react-native-app-tour.git"
   },
   "main": "RNAppTour.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "./pod-install.sh"
   },
   "keywords": [
