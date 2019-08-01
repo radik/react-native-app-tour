@@ -14,5 +14,6 @@
     "react-native"
   ],
   "author": "Pranav Raj Singh Chauhan",
-  "license": "Apache License"
+  "license": "Apache License",
+  "homepage": "https://github.com/radik/react-native-app-tour.git"
 }
