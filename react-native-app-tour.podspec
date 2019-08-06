@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source_files  = "ios/**/*.{h,m}"
   
   s.dependency "React"
-  s.dependency "MaterialShowcase", "0.6.4"
+  s.dependency "MaterialShowcase", "0.6.5"
 end
