@@ -315,7 +315,10 @@
 					"$(SRCROOT)/../../../ios/Pods/Headers/Public/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = RNAppTour;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -338,7 +341,10 @@
 					"$(SRCROOT)/../../../ios/Pods/Headers/Public/**",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = RNAppTour;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
